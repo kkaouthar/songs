@@ -1,0 +1,89 @@
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git commit -m "initial commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+        songs.txt.txt
+
+nothing added to commit but untracked files present
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git add .
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git commit -m "initial commit"
+[master (root-commit) 6d616ec] initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 songs.txt
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git push
+Warning: Permanently added the RSA host key for IP address '140.82.118.4' to the list of known hosts.
+Enter passphrase for key '/c/Users/kbeny/.ssh/id_rsa':
+Enter passphrase for key '/c/Users/kbeny/.ssh/id_rsa':
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 266 bytes | 53.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:kkaouthar/songs.git
+ * [new branch]      master -> master
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git add .
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git commit -m
+error: switch `m' requires a value
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git commit -m "test"
+[master 6bf79e7] test
+ 1 file changed, 2 insertions(+)
+ create mode 100644 songs.txt.txt
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git push
+Enter passphrase for key '/c/Users/kbeny/.ssh/id_rsa':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 323 bytes | 53.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:kkaouthar/songs.git
+   6d616ec..6bf79e7  master -> master
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git add .
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git commit -m "test"
+[master 3fa7371] test
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+ delete mode 100644 songs.txt.txt
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ git push
+Enter passphrase for key '/c/Users/kbeny/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 42.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:kkaouthar/songs.git
+   6bf79e7..3fa7371  master -> master
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$ ^C
+
+kbeny@LAPTOP-CN7K9SQF MINGW64 ~/OneDrive/Documenten/GitHub/songs (master)
+$
